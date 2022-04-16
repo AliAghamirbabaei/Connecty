@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		305476B22808D20700F1558F /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305476B02808D20600F1558F /* Quicksand-Bold.ttf */; };
+		305476B32808D20700F1558F /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305476B12808D20700F1558F /* Quicksand-Regular.ttf */; };
+		305476B62808D5FD00F1558F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305476B52808D5FD00F1558F /* SwiftUIView.swift */; };
+		305476B82809A47D00F1558F /* VCPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305476B72809A47D00F1558F /* VCPerson.swift */; };
+		305476BB2809A4C600F1558F /* VideoCallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305476BA2809A4C600F1558F /* VideoCallViewModel.swift */; };
+		305476BE2809A52700F1558F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305476BD2809A52700F1558F /* Person.swift */; };
+		305476C0280A371100F1558F /* VCMembers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305476BF280A371100F1558F /* VCMembers.swift */; };
 		30591AB62808C1E400A7C361 /* ConnectyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30591AB52808C1E400A7C361 /* ConnectyApp.swift */; };
-		30591AB82808C1E400A7C361 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30591AB72808C1E400A7C361 /* ContentView.swift */; };
 		30591ABA2808C1E600A7C361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30591AB92808C1E600A7C361 /* Assets.xcassets */; };
 		30591ABD2808C1E600A7C361 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30591ABC2808C1E600A7C361 /* Preview Assets.xcassets */; };
+		30591AC52808C22100A7C361 /* VideoCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30591AC42808C22100A7C361 /* VideoCallView.swift */; };
+		30591ACD2808CCC300A7C361 /* VCControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30591ACC2808CCC200A7C361 /* VCControls.swift */; };
+		30968AE0280A44FB00B71E8C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30968ADF280A44FA00B71E8C /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		305476B02808D20600F1558F /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		305476B12808D20700F1558F /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		305476B42808D21600F1558F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		305476B52808D5FD00F1558F /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		305476B72809A47D00F1558F /* VCPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPerson.swift; sourceTree = "<group>"; };
+		305476BA2809A4C600F1558F /* VideoCallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallViewModel.swift; sourceTree = "<group>"; };
+		305476BD2809A52700F1558F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		305476BF280A371100F1558F /* VCMembers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCMembers.swift; sourceTree = "<group>"; };
 		30591AB22808C1E400A7C361 /* Connecty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connecty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30591AB52808C1E400A7C361 /* ConnectyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectyApp.swift; sourceTree = "<group>"; };
-		30591AB72808C1E400A7C361 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		30591AB92808C1E600A7C361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30591ABC2808C1E600A7C361 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		30591AC42808C22100A7C361 /* VideoCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallView.swift; sourceTree = "<group>"; };
+		30591ACC2808CCC200A7C361 /* VCControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCControls.swift; sourceTree = "<group>"; };
+		30968ADF280A44FA00B71E8C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +51,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		305476AF2808D1FB00F1558F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				305476B02808D20600F1558F /* Quicksand-Bold.ttf */,
+				305476B12808D20700F1558F /* Quicksand-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		305476B92809A4AE00F1558F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				305476BA2809A4C600F1558F /* VideoCallViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		305476BC2809A51E00F1558F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				305476BD2809A52700F1558F /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		30591AA92808C1E300A7C361 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +95,13 @@
 		30591AB42808C1E400A7C361 /* Connecty */ = {
 			isa = PBXGroup;
 			children = (
+				305476B42808D21600F1558F /* Info.plist */,
 				30591AB52808C1E400A7C361 /* ConnectyApp.swift */,
-				30591AB72808C1E400A7C361 /* ContentView.swift */,
+				30968ADE280A44DC00B71E8C /* Extension */,
+				305476BC2809A51E00F1558F /* Model */,
+				305476B92809A4AE00F1558F /* ViewModel */,
+				30591AC62808C36E00A7C361 /* View */,
+				305476AF2808D1FB00F1558F /* Fonts */,
 				30591AB92808C1E600A7C361 /* Assets.xcassets */,
 				30591ABB2808C1E600A7C361 /* Preview Content */,
 			);
@@ -65,6 +114,34 @@
 				30591ABC2808C1E600A7C361 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		30591AC62808C36E00A7C361 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				30591AC42808C22100A7C361 /* VideoCallView.swift */,
+				30591AC72808CB1F00A7C361 /* Components */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		30591AC72808CB1F00A7C361 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				30591ACC2808CCC200A7C361 /* VCControls.swift */,
+				305476B52808D5FD00F1558F /* SwiftUIView.swift */,
+				305476B72809A47D00F1558F /* VCPerson.swift */,
+				305476BF280A371100F1558F /* VCMembers.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		30968ADE280A44DC00B71E8C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				30968ADF280A44FA00B71E8C /* Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				30591ABD2808C1E600A7C361 /* Preview Assets.xcassets in Resources */,
+				305476B22808D20700F1558F /* Quicksand-Bold.ttf in Resources */,
 				30591ABA2808C1E600A7C361 /* Assets.xcassets in Resources */,
+				305476B32808D20700F1558F /* Quicksand-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +216,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30591AB82808C1E400A7C361 /* ContentView.swift in Sources */,
+				30968AE0280A44FB00B71E8C /* Extension.swift in Sources */,
+				305476BB2809A4C600F1558F /* VideoCallViewModel.swift in Sources */,
+				30591ACD2808CCC300A7C361 /* VCControls.swift in Sources */,
+				30591AC52808C22100A7C361 /* VideoCallView.swift in Sources */,
+				305476B62808D5FD00F1558F /* SwiftUIView.swift in Sources */,
+				305476BE2809A52700F1558F /* Person.swift in Sources */,
+				305476B82809A47D00F1558F /* VCPerson.swift in Sources */,
+				305476C0280A371100F1558F /* VCMembers.swift in Sources */,
 				30591AB62808C1E400A7C361 /* ConnectyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +358,7 @@
 				DEVELOPMENT_TEAM = N4Y99Y6PT4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Connecty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +388,7 @@
 				DEVELOPMENT_TEAM = N4Y99Y6PT4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Connecty/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
