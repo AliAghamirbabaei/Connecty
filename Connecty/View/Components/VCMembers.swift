@@ -8,20 +8,35 @@
 import SwiftUI
 
 struct VCMembers: View {
+    @State private var userOpacity: CGFloat = 0
     @EnvironmentObject var viewModel: VideoCallViewModel
     
     var body: some View {
         VStack {
-            HStack {
-                ForEach(viewModel.people[0], id: \.id) { people in
-                    VCPerson(name: people.name, profilePicture: people.profilePicture, isSpeaking: people.isSpeaking)
+            if viewModel.countOfMembersInCall != 0 {
+                HStack {
+                    ForEach(viewModel.people[0], id: \.id) { people in
+                        VCPerson(user: people)
+                            .opacity(userOpacity)
+                            .onAppear {
+                                withAnimation(.easeInOut(duration: 1)) {
+                                    userOpacity = 1
+                                }
+                            }
+                    }
                 }
             }
             
             if viewModel.countOfMembersInCall >= 4 {
                 HStack {
                     ForEach(viewModel.people[1], id: \.id) { people in
-                        VCPerson(name: people.name, profilePicture: people.profilePicture, isSpeaking: people.isSpeaking)
+                        VCPerson(user: people)
+                            .opacity(userOpacity)
+                            .onAppear {
+                                withAnimation(.easeInOut(duration: 1)) {
+                                    userOpacity = 1
+                                }
+                            }
                     }
                 }
             }
@@ -31,7 +46,9 @@ struct VCMembers: View {
 
 struct VCMembers_Previews: PreviewProvider {
     static var previews: some View {
-        VCMembers()
-            .environmentObject(VideoCallViewModel())
+        VStack {
+            VCMembers()
+                .environmentObject(VideoCallViewModel())
+        }
     }
 }
