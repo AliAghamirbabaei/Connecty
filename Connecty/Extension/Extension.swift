@@ -25,3 +25,7 @@ extension Range where Bound: FixedWidthInteger {
 extension ClosedRange where Bound: FixedWidthInteger {
     var randomElement: Bound { .random(in: self) }
 }
+
+extension Int {
+    var boolValue: Bool { return self != 0 }
+}
