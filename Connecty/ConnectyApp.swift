@@ -11,7 +11,7 @@ import SwiftUI
 struct ConnectyApp: App {
     var body: some Scene {
         WindowGroup {
-            VCMembers()
+            VideoCallView()
                 .environmentObject(VideoCallViewModel())
         }
     }
