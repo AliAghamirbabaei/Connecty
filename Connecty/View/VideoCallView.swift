@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct VideoCallView: View {
+    @EnvironmentObject var viewModel: VideoCallViewModel
+    
     var body: some View {
         ZStack {
             Color("BG")
             
             VStack{
                 HStack {
-                    Text("4 Members")
+                    Text("\(viewModel.countOfMembersInCall) Members")
                         .foregroundColor(.white)
                         .font(.custom("Quicksand-Bold", size: 34))
                         .padding()
@@ -22,9 +24,14 @@ struct VideoCallView: View {
                     Spacer()
                 }
                 
+                VCMembers()
+                    .environmentObject(viewModel)
+                    .frame(maxHeight: .infinity)
+                    .padding()
+                
                 Spacer()
                 
-                VCControls()
+                VCControls(viewModel: viewModel)
             }
             .padding([.top, .bottom], 35)
         }

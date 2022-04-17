@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		305476B22808D20700F1558F /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305476B02808D20600F1558F /* Quicksand-Bold.ttf */; };
 		305476B32808D20700F1558F /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 305476B12808D20700F1558F /* Quicksand-Regular.ttf */; };
-		305476B62808D5FD00F1558F /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305476B52808D5FD00F1558F /* SwiftUIView.swift */; };
 		305476B82809A47D00F1558F /* VCPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305476B72809A47D00F1558F /* VCPerson.swift */; };
 		305476BB2809A4C600F1558F /* VideoCallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305476BA2809A4C600F1558F /* VideoCallViewModel.swift */; };
 		305476BE2809A52700F1558F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305476BD2809A52700F1558F /* Person.swift */; };
@@ -26,7 +25,6 @@
 		305476B02808D20600F1558F /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
 		305476B12808D20700F1558F /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
 		305476B42808D21600F1558F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		305476B52808D5FD00F1558F /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		305476B72809A47D00F1558F /* VCPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCPerson.swift; sourceTree = "<group>"; };
 		305476BA2809A4C600F1558F /* VideoCallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCallViewModel.swift; sourceTree = "<group>"; };
 		305476BD2809A52700F1558F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				30591ACC2808CCC200A7C361 /* VCControls.swift */,
-				305476B52808D5FD00F1558F /* SwiftUIView.swift */,
 				305476B72809A47D00F1558F /* VCPerson.swift */,
 				305476BF280A371100F1558F /* VCMembers.swift */,
 			);
@@ -220,7 +217,6 @@
 				305476BB2809A4C600F1558F /* VideoCallViewModel.swift in Sources */,
 				30591ACD2808CCC300A7C361 /* VCControls.swift in Sources */,
 				30591AC52808C22100A7C361 /* VideoCallView.swift in Sources */,
-				305476B62808D5FD00F1558F /* SwiftUIView.swift in Sources */,
 				305476BE2809A52700F1558F /* Person.swift in Sources */,
 				305476B82809A47D00F1558F /* VCPerson.swift in Sources */,
 				305476C0280A371100F1558F /* VCMembers.swift in Sources */,
